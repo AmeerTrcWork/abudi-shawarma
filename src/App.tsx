@@ -226,10 +226,16 @@ const translations: Record<Lang, Translation> = {
 }
 
 const galleryImages = [
-  'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80',
+  '/food-shawarma-chicken.svg',
+  '/food-shawarma-lamb.svg',
+  '/food-arabic-sandwich.svg',
+  '/food-hero-plate.svg',
+]
+
+const socialLinks = [
+  { href: 'https://wa.me/5511958421962', label: 'WhatsApp', icon: FaWhatsapp },
+  { href: 'https://www.instagram.com/', label: 'Instagram', icon: FaInstagram },
+  { href: 'https://www.facebook.com/', label: 'Facebook', icon: FaFacebookF },
 ]
 
 const schemaRestaurant = {
@@ -290,18 +296,28 @@ function App() {
           <a href="#contact">{current.nav.contact}</a>
         </nav>
 
-        <div className="lang-switcher" aria-label="Language switcher">
-          {(['pt', 'ar', 'en'] as Lang[]).map((option) => (
-            <button
-              key={option}
-              type="button"
-              className={option === lang ? 'active' : ''}
-              onClick={() => setLang(option)}
-              aria-label={`Switch language to ${option}`}
-            >
-              {option === 'pt' ? 'PT' : option === 'ar' ? 'AR' : 'EN'}
-            </button>
-          ))}
+        <div className="header-actions">
+          <div className="social-bar top-social" aria-label="Social media links">
+            {socialLinks.map(({ href, label, icon: Icon }) => (
+              <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} title={label}>
+                <Icon />
+              </a>
+            ))}
+          </div>
+
+          <div className="lang-switcher" aria-label="Language switcher">
+            {(['pt', 'ar', 'en'] as Lang[]).map((option) => (
+              <button
+                key={option}
+                type="button"
+                className={option === lang ? 'active' : ''}
+                onClick={() => setLang(option)}
+                aria-label={`Switch language to ${option}`}
+              >
+                {option === 'pt' ? 'PT' : option === 'ar' ? 'AR' : 'EN'}
+              </button>
+            ))}
+          </div>
         </div>
       </header>
 
@@ -340,8 +356,8 @@ function App() {
               <span>{current.highlights.label}</span>
             </div>
             <img
-              src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
-              alt="Plates of Syrian cuisine styled for a modern restaurant landing page"
+              src="/food-hero-plate.svg"
+              alt="Shawarma platter illustration for the Aboud Siria restaurant concept"
             />
             <div className="hero-card card-bottom">
               <span>{current.highlights.prefix}</span>
@@ -412,8 +428,8 @@ function App() {
         <section className="story-section">
           <div className="story-panel image-panel">
             <img
-              src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1200&q=80"
-              alt="Dining room experience for a Syrian restaurant concept"
+              src="/food-shawarma-lamb.svg"
+              alt="Illustrated lamb shawarma platter for the restaurant concept"
               loading="lazy"
             />
           </div>
@@ -512,17 +528,23 @@ function App() {
           </div>
 
           <div className="social-strip">
-            <button type="button" className="social-button disabled" aria-label="Instagram not confirmed publicly">
-              <FaInstagram /> Instagram
-            </button>
-            <button type="button" className="social-button disabled" aria-label="Facebook not confirmed publicly">
-              <FaFacebookF /> Facebook
-            </button>
+            {socialLinks.map(({ href, label, icon: Icon }) => (
+              <a key={label} href={href} target="_blank" rel="noreferrer" className="social-button" aria-label={label}>
+                <Icon /> {label}
+              </a>
+            ))}
           </div>
         </section>
       </main>
 
       <footer className="site-footer">
+        <div className="social-bar footer-social" aria-label="Social media links">
+          {socialLinks.map(({ href, label, icon: Icon }) => (
+            <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} title={label}>
+              <Icon />
+            </a>
+          ))}
+        </div>
         <p>{current.footer}</p>
       </footer>
 

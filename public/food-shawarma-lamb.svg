@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Lamb shawarma plate illustration</title>
+  <desc id="desc">Illustrated lamb shawarma dish with salad</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2a1d18"/>
+      <stop offset="100%" stop-color="#130d0b"/>
+    </linearGradient>
+    <linearGradient id="meat" x1="0" x2="1">
+      <stop offset="0%" stop-color="#9f5631"/>
+      <stop offset="100%" stop-color="#4f2a1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <g transform="translate(100 30)">
+    <ellipse cx="350" cy="450" rx="260" ry="150" fill="#f0ece8"/>
+    <ellipse cx="350" cy="430" rx="220" ry="120" fill="#d8d1c8"/>
+    <path d="M225 355c47-90 134-150 225-150 91 0 173 60 222 150-33 106-115 157-222 157-106 0-188-53-225-157z" fill="url(#meat)"/>
+    <path d="M260 315c49-47 110-72 184-72s135 25 184 72c-32 42-80 68-184 68s-152-26-184-68z" fill="#f7d9a0" opacity="0.58"/>
+    <path d="M150 455c48-32 92-52 138-58 55-8 103 6 157 34 58 31 91 42 153 48-50 67-121 104-214 104-94 0-181-41-234-128z" fill="#6f8d47" opacity="0.8"/>
+    <path d="M272 242c26-20 58-30 92-30 52 0 95 23 126 70-35 18-74 28-126 28-39 0-76-13-92-68z" fill="#7d4b2c" opacity="0.75"/>
+    <path d="M420 250c34-18 72-28 109-28 41 0 82 13 116 39-20 55-67 86-116 86-48 0-93-20-109-97z" fill="#f2c878" opacity="0.72"/>
+  </g>
+</svg>
