@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#230f0c"/>
+      <stop offset="50%" stop-color="#2b1d18"/>
+      <stop offset="100%" stop-color="#130d0b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#efc08d"/>
+      <stop offset="100%" stop-color="#c77f42"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="910" cy="115" r="150" fill="rgba(199,127,66,0.12)"/>
+  <circle cx="180" cy="510" r="180" fill="rgba(239,192,141,0.08)"/>
+  <rect x="80" y="80" width="1040" height="470" rx="32" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="110" y="220" fill="#F5F1EB" font-size="54" font-family="Segoe UI, Arial, sans-serif" letter-spacing="6">ABOUD SÍRIA</text>
+  <text x="110" y="300" fill="#F6CA8B" font-size="64" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Autêntico sabor sírio</text>
+  <text x="110" y="365" fill="#F5F1EB" font-size="30" font-family="Segoe UI, Arial, sans-serif" opacity="0.8">no coração de São Paulo</text>
+  <rect x="110" y="410" width="180" height="52" rx="26" fill="url(#gold)"/>
+  <text x="150" y="445" fill="#180f0b" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Ver cardápio</text>
+</svg>

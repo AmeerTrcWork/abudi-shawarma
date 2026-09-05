@@ -1,0 +1,71 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  color: #f6f1ee;
+  background:
+    radial-gradient(circle at top, rgba(183, 93, 22, 0.24), transparent 30%),
+    linear-gradient(180deg, #130d0b 0%, #1b1412 18%, #120d0d 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+body,
+button,
+a {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+figure {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+[dir='rtl'] .main-nav,
+[dir='rtl'] .cta-row,
+[dir='rtl'] .contact-list > div,
+[dir='rtl'] .brand-wrap,
+[dir='rtl'] .lang-switcher,
+[dir='rtl'] .hero-card,
+[dir='rtl'] .info-band > div,
+[dir='rtl'] .section-head,
+[dir='rtl'] .contact-actions,
+[dir='rtl'] .social-strip {
+  direction: rtl;
+}
