@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaBars, FaTimes, FaWhatsapp, FaClock, FaMapMarkerAlt } from 'react-icons/fa'
+import {
+  FaBars,
+  FaFacebookF,
+  FaInstagram,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaTimes,
+  FaWhatsapp,
+} from 'react-icons/fa'
 
 export type Lang = 'pt' | 'ar' | 'en'
 
@@ -15,7 +23,7 @@ export const Navbar = ({ lang, onLangChange }: NavbarProps) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 40)
+      setIsScrolled(window.scrollY > 30)
     }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
@@ -70,6 +78,33 @@ export const Navbar = ({ lang, onLangChange }: NavbarProps) => {
     { href: '#contact', label: navLabels.contact },
   ]
 
+  const socialLinks = [
+    {
+      href: 'https://wa.me/5511958421962?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Aboud%20S%C3%ADria.',
+      label: 'WhatsApp',
+      icon: FaWhatsapp,
+      colorClass: 'icon-whatsapp',
+    },
+    {
+      href: 'https://www.instagram.com/aboudsiria/',
+      label: 'Instagram @aboudsiria',
+      icon: FaInstagram,
+      colorClass: 'icon-instagram',
+    },
+    {
+      href: 'https://www.facebook.com/aboud.siria/',
+      label: 'Facebook',
+      icon: FaFacebookF,
+      colorClass: 'icon-facebook',
+    },
+    {
+      href: 'tel:+5511958421962',
+      label: 'Telefone (11) 95842-1962',
+      icon: FaPhoneAlt,
+      colorClass: 'icon-phone',
+    },
+  ]
+
   const handleLinkClick = () => {
     setMobileMenuOpen(false)
   }
@@ -91,14 +126,7 @@ export const Navbar = ({ lang, onLangChange }: NavbarProps) => {
           </div>
         </a>
 
-        {/* Live Status Pill (Desktop) */}
-        <div className="live-status-pill hidden-mobile">
-          <span className="status-dot"></span>
-          <FaClock className="status-icon" />
-          <span>{navLabels.status}</span>
-        </div>
-
-        {/* Desktop Navigation Links */}
+        {/* Desktop Section Navigation Links */}
         <nav className="desktop-nav" aria-label="Main Navigation">
           {navLinks.map((link) => (
             <a key={link.href} href={link.href} className="nav-link-item">
@@ -107,23 +135,60 @@ export const Navbar = ({ lang, onLangChange }: NavbarProps) => {
           ))}
         </nav>
 
-        {/* Right Actions: Lang Switcher & WhatsApp CTA */}
+        {/* Right Actions: Social Media Icons + Lang Switcher + WhatsApp CTA */}
         <div className="navbar-actions">
-          <div className="language-selector" role="radiogroup" aria-label="Language Selector">
-            {(['pt', 'ar', 'en'] as Lang[]).map((opt) => (
-              <button
-                key={opt}
-                type="button"
-                className={`lang-btn ${lang === opt ? 'active' : ''}`}
-                onClick={() => onLangChange(opt)}
-                aria-checked={lang === opt}
-                role="radio"
+          {/* Header Social Icons Bar */}
+          <div className="header-social-strip" aria-label="Social Media & Contact">
+            {socialLinks.map(({ href, label, icon: Icon, colorClass }) => (
+              <a
+                key={label}
+                href={href}
+                target={href.startsWith('tel:') ? undefined : '_blank'}
+                rel="noreferrer"
+                aria-label={label}
+                title={label}
+                className={`header-social-icon ${colorClass}`}
               >
-                {opt === 'pt' ? 'PT' : opt === 'ar' ? 'العربية' : 'EN'}
-              </button>
+                <Icon />
+              </a>
             ))}
           </div>
 
+          {/* Language Selector */}
+          <div className="language-selector" role="radiogroup" aria-label="Language Selector">
+            <button
+              type="button"
+              className={`lang-btn ${lang === 'pt' ? 'active' : ''}`}
+              onClick={() => onLangChange('pt')}
+              aria-checked={lang === 'pt'}
+              role="radio"
+              title="Português"
+            >
+              PT
+            </button>
+            <button
+              type="button"
+              className={`lang-btn ${lang === 'ar' ? 'active' : ''}`}
+              onClick={() => onLangChange('ar')}
+              aria-checked={lang === 'ar'}
+              role="radio"
+              title="العربية (Arabic)"
+            >
+              العربية
+            </button>
+            <button
+              type="button"
+              className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
+              onClick={() => onLangChange('en')}
+              aria-checked={lang === 'en'}
+              role="radio"
+              title="English"
+            >
+              EN
+            </button>
+          </div>
+
+          {/* Direct WhatsApp CTA Button */}
           <a
             href="https://wa.me/5511958421962?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20no%20Aboud%20S%C3%ADria."
             target="_blank"
@@ -162,6 +227,7 @@ export const Navbar = ({ lang, onLangChange }: NavbarProps) => {
                 <span>{navLabels.status}</span>
               </div>
 
+              {/* Mobile Section Links */}
               <nav className="mobile-links-list">
                 {navLinks.map((link) => (
                   <a
@@ -175,21 +241,55 @@ export const Navbar = ({ lang, onLangChange }: NavbarProps) => {
                 ))}
               </nav>
 
+              {/* Mobile Social Strip */}
+              <div className="mobile-social-bar">
+                {socialLinks.map(({ href, label, icon: Icon, colorClass }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target={href.startsWith('tel:') ? undefined : '_blank'}
+                    rel="noreferrer"
+                    aria-label={label}
+                    className={`mobile-social-btn ${colorClass}`}
+                  >
+                    <Icon />
+                  </a>
+                ))}
+              </div>
+
+              {/* Mobile Language Selector & CTA */}
               <div className="mobile-drawer-footer">
                 <div className="mobile-lang-row">
-                  {(['pt', 'ar', 'en'] as Lang[]).map((opt) => (
-                    <button
-                      key={opt}
-                      type="button"
-                      className={`lang-btn ${lang === opt ? 'active' : ''}`}
-                      onClick={() => {
-                        onLangChange(opt)
-                        setMobileMenuOpen(false)
-                      }}
-                    >
-                      {opt === 'pt' ? 'Português' : opt === 'ar' ? 'العربية' : 'English'}
-                    </button>
-                  ))}
+                  <button
+                    type="button"
+                    className={`lang-btn ${lang === 'pt' ? 'active' : ''}`}
+                    onClick={() => {
+                      onLangChange('pt')
+                      setMobileMenuOpen(false)
+                    }}
+                  >
+                    Português
+                  </button>
+                  <button
+                    type="button"
+                    className={`lang-btn ${lang === 'ar' ? 'active' : ''}`}
+                    onClick={() => {
+                      onLangChange('ar')
+                      setMobileMenuOpen(false)
+                    }}
+                  >
+                    العربية
+                  </button>
+                  <button
+                    type="button"
+                    className={`lang-btn ${lang === 'en' ? 'active' : ''}`}
+                    onClick={() => {
+                      onLangChange('en')
+                      setMobileMenuOpen(false)
+                    }}
+                  >
+                    English
+                  </button>
                 </div>
 
                 <a

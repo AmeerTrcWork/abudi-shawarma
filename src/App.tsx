@@ -58,31 +58,31 @@ export function App() {
           eyebrow: 'Tradição & Gastronomia Síria em São Paulo',
           title: 'ABOUD SÍRIA',
           subtitle: 'Autêntico sabor sírio no coração do Centro Histórico de São Paulo.',
-          desc: 'Shawarmas montados na hora no pão folha saj artesanal de fabricação própria, falafel crocante, esfihas aromáticas e doces tradicionais feitos com alma.',
+          desc: 'Shawarmas montados na hora no pão folha saj artesanal assado ao vivo no forno tradicional, falafel crocante, esfihas aromáticas e doces tradicionais feitos com alma.',
           ctaPrimary: 'Ver Cardápio Completo',
           ctaSecondary: 'Como Chegar',
           ctaWhatsApp: 'Pedir no WhatsApp',
           stat1: '4.7★ no Google',
           stat1Sub: 'Mais de 2.000 avaliações',
           stat2: '100% Artesanal',
-          stat2Sub: 'Pão folha assado na hora',
+          stat2Sub: 'Pão folha assado no forno saj',
           stat3: 'Tradição Síria',
           stat3Sub: 'Receitas autênticas de família',
         },
         about: {
-          tag: 'Nossa História & Tradição',
+          tag: 'Nossa Tradição Culinária',
           title: 'Uma Jornada de Sabores de Damasco a São Paulo',
           p1: 'No movimentado Largo do Paissandú, o Aboud Síria tornou-se um marco da autêntica culinária do Oriente Médio no Centro de São Paulo.',
-          p2: 'Trazendo na bagagem as memórias afetivas e os segredos da culinária de sua terra natal, o proprietário Aboud produz diariamente o clássico pão folha (saj) bem atrás do balcão, à vista de todos os clientes.',
-          p3: 'Cada tempero, o toque de sumac, a pimenta síria, o creme de alho suave (toum) e a textura dourada da massa folhada dos doces são tratados com o mais rigoroso respeito às tradições sírias.',
+          p2: 'Trazendo na memória afetiva os segredos da autêntica culinária de sua terra natal, a casa produz diariamente o clássico pão folha (saj) assado no forno abaulado, preservando a leveza e a crocância incomparáveis.',
+          p3: 'Cada tempero, o toque cítrico do sumac, a pimenta síria, o creme de alho suave (toum) e a textura dourada da massa folhada dos doces são preparados com o mais rigoroso respeito às tradições sírias.',
           badgeTitle: 'Pão Folha Saj Artesanal',
-          badgeDesc: 'Aberto na hora e assado no forno convexo para garantir a textura perfeita do shawarma.',
-          feature1Title: 'Espeto Tradicional',
-          feature1Desc: 'Carne e frango marinados em especiarias árabes no fogo brando.',
+          badgeDesc: 'Assado no forno convexo de brasas quentes para garantir a textura perfeita do shawarma.',
+          feature1Title: 'Espeto Tradicional no Fogo Lento',
+          feature1Desc: 'Carne bovina e frango marinados em 7 especiarias árabes grelhados lentamente.',
           feature2Title: 'Doces de Fabricação Própria',
-          feature2Desc: 'Baklavas folhadas com pistache fresco e flor de laranjeira.',
+          feature2Desc: 'Baklavas folhadas com pistache fresco, nozes e flor de laranjeira.',
           feature3Title: 'Hospitalidade Acolhedora',
-          feature3Desc: 'O calor humano e a simpatia que acolhem quem visita o centro.',
+          feature3Desc: 'O calor humano e a simpatia que acolhem quem visita o Centro Histórico.',
         },
         menu: {
           tag: 'Gastronomia Síria',
@@ -100,9 +100,9 @@ export function App() {
           orderItem: 'Pedir Este Prato',
         },
         gallery: {
-          tag: 'Experiência Visual',
-          title: 'A Arte e a Atmosfera da Nossa Cozinha',
-          subtitle: 'Do forno saj aos doces artesanais: conheça de perto a essência do Aboud Síria.',
+          tag: 'Experiência Gastronômica',
+          title: 'A Arte e a Atmosfera da Nossa Culinária',
+          subtitle: 'Do forno saj de brasas vivas aos doces artesanais: conheça de perto a essência do Aboud Síria.',
           clickHint: 'Clique nas imagens para expandir em alta resolução',
         },
         reviews: {
@@ -140,29 +140,29 @@ export function App() {
           eyebrow: 'أصالة المطبخ السوري في قلب ساو باولو',
           title: 'ABOUD SÍRIA',
           subtitle: 'نكهة سورية أصيلة في قلب المركز التاريخي لساو باولو.',
-          desc: 'شاورما مميزة محضرة في خبز الصاج الطازج المصنوع يدوياً أمامك، فلافل مقرمشة، فطائر ومعجنات دمشقية، وألذ الحلويات السورية الفاخرة.',
+          desc: 'شاورما مميزة محضرة في خبز الصاج الطازج المخبوز على الفرن التقليدي، فلافل مقرمشة، فطائر ومعجنات دمشقية، وألذ الحلويات السورية الفاخرة.',
           ctaPrimary: 'استعراض القائمة كاملة',
           ctaSecondary: 'كيف تصل إلينا',
           ctaWhatsApp: 'اطلب عبر واتساب',
           stat1: '4.7★ تقييم Google',
           stat1Sub: 'أكثر من 2000 تقييم حقيقي',
           stat2: '100% يدوي وطازج',
-          stat2Sub: 'خبز صاج يخبز أمامك فوراً',
+          stat2Sub: 'خبز صاج يخبز على النار فوراً',
           stat3: 'تقاليد سورية أصيلة',
           stat3Sub: 'وصفات عائلية عريقة',
         },
         about: {
-          tag: 'تاريخنا وأصالتنا',
+          tag: 'أصالتنا وتراثنا',
           title: 'رحلة النكهات الدمشقية إلى قلب ساو باولو',
           p1: 'في ساحة Largo do Paissandú التاريخية النابضة بالحياة، أصبح مطعم "عبود سوريا" منارة للمأكولات الشرقية الأصيلة في وسط ساو باولو.',
-          p2: 'حاملاً معه عبق التراث السوري وذكريات النكهات الشامية، يقوم صاحب المطعم "عبود" بفرد وخبز خبز الصاج الرقيق يومياً خلف طاولة التحضير أمام أعين الزبائن.',
-          p3: 'كل بهار، ولمسة السماق، وتتبيلة الشاورما، وكريمة الثومية الناعمة، وطبقات البقلاوة المقرمشة تعكس الشغف الحقيقي والأصالة السورية.',
+          p2: 'حاملاً معه عبق التراث السوري وذكريات النكهات الشامية، تُحضر المأكولات بخبز الصاج الرقيق يومياً على الصاج الدائري الساخن للحفاظ على القوام المثالي والطعم الأصيل.',
+          p3: 'كل بهار، ولمسة السماق، وتتبيلة الشاورما، وكريمة الثومية الناعمة، وطبقات البقلاوة المذهبة تعكس الشغف الحقيقي والأصالة السورية.',
           badgeTitle: 'خبز الصاج الحرفي الطازج',
-          badgeDesc: 'يُفرد في اللحظة ويُخبز على الصاج الدائري الساخن لمنح الشاورما الطراوة والقرمشة المثالية.',
+          badgeDesc: 'يُخبز على صاج النار الدائري الساخن لمنح الشاورما الطراوة والقرمشة المثالية.',
           feature1Title: 'سيخ الشاورما التقليدي',
-          feature1Desc: 'لحم ودجاج متبل ببهارات دمشقية عريقة ومشوي على نار هادئة.',
+          feature1Desc: 'لحم ودجاج متبل بسبع بهارات دمشقية عريقة ومشوي على نار هادئة.',
           feature2Title: 'حلويات سورية خاصة',
-          feature2Desc: 'بقلاوة ومعمول بالفستق الحلبي وماء الورد من صنعنا.',
+          feature2Desc: 'بقلاوة ومعمول بالفستق الحلبي وماء الورد من صنع المطعم.',
           feature3Title: 'كرم الضيافة الشامية',
           feature3Desc: 'دفء الاستقبال والابتسامة التي ترحب بكل زائر لوسط المدينة.',
         },
@@ -183,8 +183,8 @@ export function App() {
         },
         gallery: {
           tag: 'تجربة بصرية',
-          title: 'فنون المطبخ وأجواء المطعم',
-          subtitle: 'من فرن الصاج إلى صواني البقلاوة المذهبة: تعرّف على تفاصيل عبود سوريا.',
+          title: 'فنون المطبخ وأجواء المأكولات',
+          subtitle: 'من فرن الصاج المشتعل إلى صواني البقلاوة المذهبة: تعرّف على تفاصيل عبود سوريا.',
           clickHint: 'انقر على أي صورة لتكبيرها بدقة عالية',
         },
         reviews: {
@@ -222,29 +222,29 @@ export function App() {
           eyebrow: 'Authentic Syrian Gastronomy in São Paulo',
           title: 'ABOUD SÍRIA',
           subtitle: 'Authentic Syrian flavor in the heart of São Paulo’s Historic Center.',
-          desc: 'Freshly prepared shawarmas made in homemade artisanal saj bread baked live behind the counter, crispy falafel, savory sfihas, and handcrafted Syrian sweets.',
+          desc: 'Freshly prepared shawarmas made in homemade artisanal saj bread baked over the traditional oven, crispy falafel, savory sfihas, and handcrafted Syrian sweets.',
           ctaPrimary: 'View Full Menu',
           ctaSecondary: 'How to Get There',
           ctaWhatsApp: 'Order via WhatsApp',
           stat1: '4.7★ on Google',
           stat1Sub: 'Over 2,000 real reviews',
           stat2: '100% Artisanal',
-          stat2Sub: 'Saj bread freshly baked on spot',
+          stat2Sub: 'Saj bread freshly baked over oven',
           stat3: 'Syrian Tradition',
           stat3Sub: 'Authentic heritage family recipes',
         },
         about: {
-          tag: 'Our Heritage & Tradition',
+          tag: 'Our Culinary Heritage',
           title: 'A Flavorful Journey from Damascus to São Paulo',
           p1: 'In the vibrant Largo do Paissandú, Aboud Síria has become an authentic landmark of Middle Eastern cuisine in downtown São Paulo.',
-          p2: 'Bringing cherished recipes and heritage secrets from his homeland, owner Aboud prepares fresh saj flatbread right behind the counter in full view of customers.',
+          p2: 'Carrying heritage recipes from Damascus, the kitchen freshly bakes thin saj flatbread daily over the domed oven, preserving unmatched aroma and crispness.',
           p3: 'Every spice blend, sumac touch, Syrian pepper, smooth garlic toum whip, and crisp golden baklava layers honors ancestral Syrian culinary tradition.',
           badgeTitle: 'Handmade Saj Flatbread',
-          badgeDesc: 'Stretched live and baked over a hot dome oven for unmatched softness and flavor.',
+          badgeDesc: 'Baked over a hot domed cast-iron oven for unmatched softness and flavor.',
           feature1Title: 'Traditional Rotisserie Spit',
-          feature1Desc: 'Tender beef and chicken marinated in Middle Eastern spices.',
+          feature1Desc: 'Tender beef and chicken marinated in 7 Middle Eastern spices.',
           feature2Title: 'In-House Handcrafted Sweets',
-          feature2Desc: 'Phyllo pastry baklava with fresh pistachios and orange blossom.',
+          feature2Desc: 'Phyllo pastry baklava with fresh pistachios, walnuts, and orange blossom.',
           feature3Title: 'Warm Hospitality',
           feature3Desc: 'Heartfelt welcomes and smiles embracing everyone who visits downtown.',
         },
@@ -266,7 +266,7 @@ export function App() {
         gallery: {
           tag: 'Visual Experience',
           title: 'The Craft and Atmosphere of Our Kitchen',
-          subtitle: 'From the saj oven to golden baklava trays: discover the essence of Aboud Síria.',
+          subtitle: 'From the fiery saj oven to golden baklava trays: discover the essence of Aboud Síria.',
           clickHint: 'Click any image to view in high resolution',
         },
         reviews: {
@@ -457,7 +457,6 @@ export function App() {
       ]
     }
 
-    // Portuguese default
     return [
       {
         id: 'sh-misto',
@@ -555,13 +554,13 @@ export function App() {
       },
       {
         src: '/images/gallery-saj.jpg',
-        title: lang === 'ar' ? 'فرد وخبز الصاج الطازج يومياً' : lang === 'en' ? 'Live Handcrafted Saj Bread Baking' : 'Preparo Artesanal do Pão Folha no Saj',
-        subtitle: lang === 'ar' ? 'يتم خبز الصاج خلف الطاولة أمام أعين الزبائن' : lang === 'en' ? 'Hand-stretched dough baked over a hot domed saj oven' : 'Massa aberta na hora e assada no forno tradicional à vista de todos',
+        title: lang === 'ar' ? 'خبز الصاج الطازج على النار الحية' : lang === 'en' ? 'Fresh Handcrafted Saj Flatbread' : 'Pão Folha Saj no Forno Tradicional',
+        subtitle: lang === 'ar' ? 'يُخبز على صاج مقبب ساخن مع الجمر المتوهج' : lang === 'en' ? 'Freshly baked thin dough over hot domed cast-iron oven' : 'Massa fina assada no forno saj com brasas vivas',
         tag: 'Pão Folha',
       },
       {
         src: '/images/gallery-spit.jpg',
-        title: lang === 'ar' ? 'سيخ الشاورما الدوار على النار الهادئة' : lang === 'en' ? 'Rotating Shawarma Rotisserie Spit' : 'O Espeto Tradicional de Shawarma',
+        title: lang === 'ar' ? 'سيخ الشاورما الدوار على نار الفحم' : lang === 'en' ? 'Rotating Shawarma Rotisserie Spit' : 'Espeto Tradicional de Shawarma',
         subtitle: lang === 'ar' ? 'لحوم متبلة بسبع بهارات دمشقية تشوى ببطء' : lang === 'en' ? 'Slowly roasted meats seasoned with authentic Damascus spices' : 'Carnes suculentas grelhadas lentamente com especiarias sírias',
         tag: 'Tradição',
       },
@@ -588,7 +587,7 @@ export function App() {
           author: 'ماركوس سيلفا',
           role: 'مرشد محلي على Google',
           rating: 5,
-          comment: 'أفضل شاورما تناولتها في ساو باولو بلا منازع! خبز الصاج يُصنع طازجاً أمامك، واللحم طري ومتبل بإتقان، وصاحب المطعم ودود للغاية وذو ابتسامة مرحبة.',
+          comment: 'أفضل شاورما تناولتها في ساو باولو بلا منازع! خبز الصاج يُصنع طازجاً، واللحم طري ومتبل بإتقان، والخدمة سريعة ومضيافة للغاية.',
           source: 'Google Reviews',
         },
         {
@@ -617,7 +616,7 @@ export function App() {
           author: 'Marcos Silva',
           role: 'Google Local Guide',
           rating: 5,
-          comment: 'Hands down the most authentic shawarma in São Paulo! The freshly made saj flatbread baked in front of you elevates the sandwich to a whole new level.',
+          comment: 'Hands down the most authentic shawarma in São Paulo! The freshly made saj flatbread baked right on the spot elevates the sandwich to a whole new level.',
           source: 'Google Reviews',
         },
         {
@@ -625,7 +624,7 @@ export function App() {
           author: 'Beatriz Oliveira',
           role: 'Food Enthusiast',
           rating: 5,
-          comment: 'The handmade baklavas and Syrian sweets are out of this world! Pure pistachio, crisp layers, and generous hospitality from owner Aboud.',
+          comment: 'The handmade baklavas and Syrian sweets are out of this world! Pure pistachio, crisp layers, and generous hospitality.',
           source: 'Google Reviews',
         },
         {
@@ -645,7 +644,7 @@ export function App() {
         author: 'Marcos Silva',
         role: 'Guia Local no Google',
         rating: 5,
-        comment: 'Com certeza o melhor shawarma de São Paulo! O pão folha feito na hora atrás do balcão faz toda a diferença. A carne é super suculenta e o atendimento do Aboud é nota 10.',
+        comment: 'Com certeza o melhor shawarma de São Paulo! O pão folha feito na hora no forno saj faz toda a diferença. A carne é super suculenta e o atendimento é nota 10.',
         source: 'Google Reviews',
       },
       {
@@ -717,7 +716,7 @@ export function App() {
         }}
       />
 
-      {/* Top Navigation */}
+      {/* Top Navigation Bar (Fixed / Sticky Header) */}
       <Navbar lang={lang} onLangChange={setLang} />
 
       {/* Hero Section */}
@@ -811,7 +810,7 @@ export function App() {
         </div>
       </section>
 
-      {/* Story / About Section */}
+      {/* Story / Tradition Section */}
       <section id="story" className="section-padded story-section-full">
         <div className="section-container">
           <div className="story-split-grid">
