@@ -55,30 +55,30 @@ export function App() {
     return {
       pt: {
         hero: {
-          eyebrow: 'Tradição & Gastronomia Síria em São Paulo',
+          eyebrow: 'Especialistas em Shawarma de Carne & Frango',
           title: 'ABOUD SÍRIA',
           subtitle: 'Autêntico sabor sírio no coração do Centro Histórico de São Paulo.',
-          desc: 'Shawarmas montados na hora no pão folha saj artesanal assado ao vivo no forno tradicional, falafel crocante, esfihas aromáticas e doces tradicionais feitos com alma.',
+          desc: 'Shawarmas nobres de carne e frango fatiados na hora direto dos espetos verticais assados no fogo a carvão, falafel crocante, esfihas aromáticas e doces tradicionais feitos com alma.',
           ctaPrimary: 'Ver Cardápio Completo',
           ctaSecondary: 'Como Chegar',
           ctaWhatsApp: 'Pedir no WhatsApp',
           stat1: '4.7★ no Google',
           stat1Sub: 'Mais de 2.000 avaliações',
-          stat2: '100% Artesanal',
-          stat2Sub: 'Pão folha assado no forno saj',
+          stat2: 'Carne & Frango',
+          stat2Sub: 'Espetos verticais assados no fogo',
           stat3: 'Tradição Síria',
           stat3Sub: 'Receitas autênticas de família',
         },
         about: {
-          tag: 'Nossa Tradição Culinária',
-          title: 'Uma Jornada de Sabores de Damasco a São Paulo',
-          p1: 'No movimentado Largo do Paissandú, o Aboud Síria tornou-se um marco da autêntica culinária do Oriente Médio no Centro de São Paulo.',
-          p2: 'Trazendo na memória afetiva os segredos da autêntica culinária de sua terra natal, a casa produz diariamente o clássico pão folha (saj) assado no forno abaulado, preservando a leveza e a crocância incomparáveis.',
-          p3: 'Cada tempero, o toque cítrico do sumac, a pimenta síria, o creme de alho suave (toum) e a textura dourada da massa folhada dos doces são preparados com o mais rigoroso respeito às tradições sírias.',
-          badgeTitle: 'Pão Folha Saj Artesanal',
-          badgeDesc: 'Assado no forno convexo de brasas quentes para garantir a textura perfeita do shawarma.',
-          feature1Title: 'Espeto Tradicional no Fogo Lento',
-          feature1Desc: 'Carne bovina e frango marinados em 7 especiarias árabes grelhados lentamente.',
+          tag: 'Nossa Especialidade em Shawarma',
+          title: 'A Arte do Verdadeiro Shawarma Sírio',
+          p1: 'No movimentado Largo do Paissandú, o Aboud Síria consolidou-se como o grande endereço do autêntico shawarma de carne e frango no Centro de São Paulo.',
+          p2: 'Trazendo na bagagem as receitas e os segredos da culinária de sua terra natal, a casa prepara diariamente seus clássicos espetos verticais de carne bovina nobre e peito de frango marinados em 7 especiarias, grelhados no fogo brando e fatiados finamente na hora.',
+          p3: 'Cada corte, o tempero especial com sumac, o creme suave de alho toum, os picles selecionados e a crocância das esfihas e doces honram a mais pura tradição da gastronomia árabe.',
+          badgeTitle: 'Espetos Verticais de Shawarma',
+          badgeDesc: 'Carne bovina e frango marinados, assados no fogo e fatiados na hora.',
+          feature1Title: 'Espetos de Carne & Frango',
+          feature1Desc: 'Carnes nobres marinadas em especiarias árabes no fogo brando.',
           feature2Title: 'Doces de Fabricação Própria',
           feature2Desc: 'Baklavas folhadas com pistache fresco, nozes e flor de laranjeira.',
           feature3Title: 'Hospitalidade Acolhedora',
@@ -87,7 +87,7 @@ export function App() {
         menu: {
           tag: 'Gastronomia Síria',
           title: 'Nosso Cardápio Artesanal',
-          subtitle: 'Pratos preparados com ingredientes frescos, pão feito na hora e temperos importados.',
+          subtitle: 'Pratos preparados com carnes selecionadas, temperos importados e muito capricho.',
           disclaimer: '* Itens verificados do perfil gastronômico da casa. Para confirmar preços do dia e disponibilidade, consulte nosso atendimento via WhatsApp.',
           categories: [
             { id: 'all', label: 'Todos os Pratos' },
@@ -101,8 +101,8 @@ export function App() {
         },
         gallery: {
           tag: 'Experiência Gastronômica',
-          title: 'A Arte e a Atmosfera da Nossa Culinária',
-          subtitle: 'Do forno saj de brasas vivas aos doces artesanais: conheça de perto a essência do Aboud Síria.',
+          title: 'A Arte e a Atmosfera da Nossa Cozinha',
+          subtitle: 'Dos espetos de carne e frango aos doces artesanais: conheça de perto a essência do Aboud Síria.',
           clickHint: 'Clique nas imagens para expandir em alta resolução',
         },
         reviews: {
@@ -125,7 +125,7 @@ export function App() {
         },
         footer: {
           aboutTitle: 'Aboud Síria',
-          aboutText: 'Restaurante e lanchonete de comida síria e árabe autêntica no Centro Histórico de São Paulo. Tradição, sabor e hospitalidade.',
+          aboutText: 'Restaurante especializado no autêntico shawarma de carne e frango no Centro Histórico de São Paulo. Tradição, sabor e hospitalidade.',
           quickLinks: 'Navegação Rápida',
           contactTitle: 'Atendimento & Pedidos',
           hoursTitle: 'Horário de Funcionamento',
@@ -137,30 +137,30 @@ export function App() {
       },
       ar: {
         hero: {
-          eyebrow: 'أصالة المطبخ السوري في قلب ساو باولو',
+          eyebrow: 'متخصصون في شاورما اللحم والدجاج الأصيلة',
           title: 'ABOUD SÍRIA',
           subtitle: 'نكهة سورية أصيلة في قلب المركز التاريخي لساو باولو.',
-          desc: 'شاورما مميزة محضرة في خبز الصاج الطازج المخبوز على الفرن التقليدي، فلافل مقرمشة، فطائر ومعجنات دمشقية، وألذ الحلويات السورية الفاخرة.',
+          desc: 'شاورما لحم ودجاج مميزة تُقطع شرائح طرية مباشرة من الأسياخ العمودية المحمصة على النار الهادئة، فلافل مقرمشة، فطائر دمشقية، وألذ الحلويات السورية الفاخرة.',
           ctaPrimary: 'استعراض القائمة كاملة',
           ctaSecondary: 'كيف تصل إلينا',
           ctaWhatsApp: 'اطلب عبر واتساب',
           stat1: '4.7★ تقييم Google',
           stat1Sub: 'أكثر من 2000 تقييم حقيقي',
-          stat2: '100% يدوي وطازج',
-          stat2Sub: 'خبز صاج يخبز على النار فوراً',
+          stat2: 'لحم ودجاج طازج',
+          stat2Sub: 'أسياخ عمودية محمصة على النار',
           stat3: 'تقاليد سورية أصيلة',
           stat3Sub: 'وصفات عائلية عريقة',
         },
         about: {
-          tag: 'أصالتنا وتراثنا',
-          title: 'رحلة النكهات الدمشقية إلى قلب ساو باولو',
-          p1: 'في ساحة Largo do Paissandú التاريخية النابضة بالحياة، أصبح مطعم "عبود سوريا" منارة للمأكولات الشرقية الأصيلة في وسط ساو باولو.',
-          p2: 'حاملاً معه عبق التراث السوري وذكريات النكهات الشامية، تُحضر المأكولات بخبز الصاج الرقيق يومياً على الصاج الدائري الساخن للحفاظ على القوام المثالي والطعم الأصيل.',
-          p3: 'كل بهار، ولمسة السماق، وتتبيلة الشاورما، وكريمة الثومية الناعمة، وطبقات البقلاوة المذهبة تعكس الشغف الحقيقي والأصالة السورية.',
-          badgeTitle: 'خبز الصاج الحرفي الطازج',
-          badgeDesc: 'يُخبز على صاج النار الدائري الساخن لمنح الشاورما الطراوة والقرمشة المثالية.',
-          feature1Title: 'سيخ الشاورما التقليدي',
-          feature1Desc: 'لحم ودجاج متبل بسبع بهارات دمشقية عريقة ومشوي على نار هادئة.',
+          tag: 'تخصصنا في الشاورما',
+          title: 'فن الشاورما السورية الأصيلة في ساو باولو',
+          p1: 'في ساحة Largo do Paissandú التاريخية النابضة بالحياة، أصبح مطعم "عبود سوريا" الوجهة الأولى لعشاق شاورما اللحم والدجاج في وسط ساو باولو.',
+          p2: 'حاملاً معه عبق التراث السوري وذكريات النكهات الشامية، يُعد المطعم يومياً أسياخ شاورما اللحم والدجاج العمودية المتبلة بسبع بهارات دمشقية والمحمصة على النار، مع تقطيع اللحم شرائح رفيعة وطرية مباشرة أمامك.',
+          p3: 'كل بهار، ولمسة السماق، وتتبيلة اللحم، وكريمة الثومية الناعمة، وطبقات البقلاوة المذهبة تعكس الشغف الحقيقي والأصالة السورية.',
+          badgeTitle: 'أسياخ الشاورما العمودية الطازجة',
+          badgeDesc: 'شاورما لحم ودجاج متبلة ومحمصة على النار وتُقطع طازجة أمامك.',
+          feature1Title: 'أسياخ شاورما لحم ودجاج',
+          feature1Desc: 'لحوم متبلة بسبع بهارات دمشقية عريقة ومشوية على نار هادئة.',
           feature2Title: 'حلويات سورية خاصة',
           feature2Desc: 'بقلاوة ومعمول بالفستق الحلبي وماء الورد من صنع المطعم.',
           feature3Title: 'كرم الضيافة الشامية',
@@ -169,7 +169,7 @@ export function App() {
         menu: {
           tag: 'المأكولات الشامية',
           title: 'قائمة الأطباق الحرفية',
-          subtitle: 'أطباق محضرة بمكونات طازجة يومياً، خبز ساخن، وبهارات شرقية أصيلة.',
+          subtitle: 'أطباق محضرة بمكونات طازجة يومياً، لحوم متبلة بعناية، وبهارات شرقية أصيلة.',
           disclaimer: '* أصناف معتمدة وموثقة من الهوية الفعلية للمطعم. لتأكيد أسعار اليوم والتوفر، تواصل معنا مباشرة عبر واتساب.',
           categories: [
             { id: 'all', label: 'جميع الأطباق' },
@@ -183,8 +183,8 @@ export function App() {
         },
         gallery: {
           tag: 'تجربة بصرية',
-          title: 'فنون المطبخ وأجواء المأكولات',
-          subtitle: 'من فرن الصاج المشتعل إلى صواني البقلاوة المذهبة: تعرّف على تفاصيل عبود سوريا.',
+          title: 'فنون المطبخ وأجواء الشاورما',
+          subtitle: 'من أسياخ الشاورما المحمصة على النار إلى صواني البقلاوة المذهبة: تعرّف على تفاصيل عبود سوريا.',
           clickHint: 'انقر على أي صورة لتكبيرها بدقة عالية',
         },
         reviews: {
@@ -207,7 +207,7 @@ export function App() {
         },
         footer: {
           aboutTitle: 'أبوود سوريا (Aboud Síria)',
-          aboutText: 'مطعم ومأكولات سورية وعربية أصيلة في قلب المركز التاريخي لساو باولو. أصالة، نكهة، وحسن ضيافة.',
+          aboutText: 'مطعم ومأكولات سورية متخصصة في شاورما اللحم والدجاج الأصيلة في قلب المركز التاريخي لساو باولو. أصالة، نكهة، وحسن ضيافة.',
           quickLinks: 'روابط سريعة',
           contactTitle: 'الطلبات والاستفسارات',
           hoursTitle: 'أوقات العمل',
@@ -219,30 +219,30 @@ export function App() {
       },
       en: {
         hero: {
-          eyebrow: 'Authentic Syrian Gastronomy in São Paulo',
+          eyebrow: 'Specialists in Authentic Beef & Chicken Shawarma',
           title: 'ABOUD SÍRIA',
           subtitle: 'Authentic Syrian flavor in the heart of São Paulo’s Historic Center.',
-          desc: 'Freshly prepared shawarmas made in homemade artisanal saj bread baked over the traditional oven, crispy falafel, savory sfihas, and handcrafted Syrian sweets.',
+          desc: 'Premium beef and chicken shawarmas freshly carved from dual vertical rotisserie spits roasted slowly over charcoal fire, crispy falafel, savory sfihas, and handcrafted sweets.',
           ctaPrimary: 'View Full Menu',
           ctaSecondary: 'How to Get There',
           ctaWhatsApp: 'Order via WhatsApp',
           stat1: '4.7★ on Google',
           stat1Sub: 'Over 2,000 real reviews',
-          stat2: '100% Artisanal',
-          stat2Sub: 'Saj bread freshly baked over oven',
+          stat2: 'Beef & Chicken',
+          stat2Sub: 'Dual vertical rotisserie spits',
           stat3: 'Syrian Tradition',
           stat3Sub: 'Authentic heritage family recipes',
         },
         about: {
-          tag: 'Our Culinary Heritage',
-          title: 'A Flavorful Journey from Damascus to São Paulo',
-          p1: 'In the vibrant Largo do Paissandú, Aboud Síria has become an authentic landmark of Middle Eastern cuisine in downtown São Paulo.',
-          p2: 'Carrying heritage recipes from Damascus, the kitchen freshly bakes thin saj flatbread daily over the domed oven, preserving unmatched aroma and crispness.',
-          p3: 'Every spice blend, sumac touch, Syrian pepper, smooth garlic toum whip, and crisp golden baklava layers honors ancestral Syrian culinary tradition.',
-          badgeTitle: 'Handmade Saj Flatbread',
-          badgeDesc: 'Baked over a hot domed cast-iron oven for unmatched softness and flavor.',
-          feature1Title: 'Traditional Rotisserie Spit',
-          feature1Desc: 'Tender beef and chicken marinated in 7 Middle Eastern spices.',
+          tag: 'Our Shawarma Craft',
+          title: 'The Art of Authentic Syrian Shawarma',
+          p1: 'In the vibrant Largo do Paissandú, Aboud Síria has become the premier destination for authentic beef and chicken shawarma in downtown São Paulo.',
+          p2: 'Bringing heritage recipes from Damascus, the kitchen daily prepares dual vertical rotisserie spits of tender beef and chicken breast, marinated in 7 spices and slow-roasted over charcoal fire, finely carved to order.',
+          p3: 'Every slice, the authentic sumac seasoning, smooth garlic toum whip, and crisp pastries honor ancestral Syrian culinary tradition.',
+          badgeTitle: 'Dual Vertical Shawarma Spits',
+          badgeDesc: 'Seasoned beef & chicken, flame-roasted and freshly sliced.',
+          feature1Title: 'Beef & Chicken Spits',
+          feature1Desc: 'Tender meats marinated in 7 Middle Eastern spices.',
           feature2Title: 'In-House Handcrafted Sweets',
           feature2Desc: 'Phyllo pastry baklava with fresh pistachios, walnuts, and orange blossom.',
           feature3Title: 'Warm Hospitality',
@@ -251,7 +251,7 @@ export function App() {
         menu: {
           tag: 'Syrian Culinary Art',
           title: 'Our Artisanal Menu',
-          subtitle: 'Dishes prepared daily with fresh ingredients, live-baked bread, and authentic imported spices.',
+          subtitle: 'Dishes prepared daily with premium meats, authentic seasonings, and great care.',
           disclaimer: '* Verified items reflecting the authentic dining profile. To confirm current day pricing and availability, contact our team on WhatsApp.',
           categories: [
             { id: 'all', label: 'All Dishes' },
@@ -266,7 +266,7 @@ export function App() {
         gallery: {
           tag: 'Visual Experience',
           title: 'The Craft and Atmosphere of Our Kitchen',
-          subtitle: 'From the fiery saj oven to golden baklava trays: discover the essence of Aboud Síria.',
+          subtitle: 'From the fiery shawarma spits to golden baklava trays: discover the essence of Aboud Síria.',
           clickHint: 'Click any image to view in high resolution',
         },
         reviews: {
@@ -289,7 +289,7 @@ export function App() {
         },
         footer: {
           aboutTitle: 'Aboud Síria',
-          aboutText: 'Authentic Syrian and Arabic restaurant in the Historic Center of São Paulo. Tradition, flavor, and warm hospitality.',
+          aboutText: 'Restaurant specializing in authentic beef and chicken shawarma in the Historic Center of São Paulo. Tradition, flavor, and warm hospitality.',
           quickLinks: 'Quick Links',
           contactTitle: 'Orders & Inquiries',
           hoursTitle: 'Opening Hours',
@@ -310,16 +310,16 @@ export function App() {
           name: 'شاورما مشكل سوبر (لحم ودجاج)',
           category: 'shawarma',
           tag: 'الأكثر طلباً',
-          description: 'شرائح لحم بقري ودجاج مشوي متبل بالبهارات الشامية، ملفوف في خبز الصاج الطازج مع كريم الثومية والمخلل والبطاطس المقرمشة.',
+          description: 'شرائح لحم بقري ودجاج مشوي متبل بالبهارات الشامية، ملفوف في خبز الصاج مع كريم الثومية والمخلل والبطاطس المقرمشة.',
           image: '/images/hero-shawarma.jpg',
-          dietary: ['حلال 100%', 'خبز صاج طازج'],
+          dietary: ['حلال 100%', 'لحم ودجاج طازج'],
         },
         {
           id: 'sh-plate',
           name: 'صحن شاورما عربي دمشقي',
           category: 'shawarma',
           tag: 'طبق عربي فاخر',
-          description: 'قطع شاورما مقطعة رولات في خبز الصاج، تُقدم مع صحن بطاطس مبهرة، مخللات لفت وخيار سوري، وصوص ثومية وطحينة.',
+          description: 'قطع شاورما مقطعة رولات، تُقدم مع صحن بطاطس مبهرة، مخللات لفت وخيار سوري، وصوص ثومية وطحينة.',
           image: '/images/dish-shawarma.jpg',
           dietary: ['حلال 100%', 'وجبة متكاملة'],
         },
@@ -387,16 +387,16 @@ export function App() {
           name: 'Super Mixed Shawarma (Beef & Chicken)',
           category: 'shawarma',
           tag: 'Best Seller',
-          description: 'Thin ribbons of spit-roasted spiced beef and chicken wrapped in fresh housemade saj flatbread with creamy toum garlic sauce, pickles, and crispy fries.',
+          description: 'Thin ribbons of spit-roasted spiced beef and chicken with creamy toum garlic sauce, pickles, and crispy fries.',
           image: '/images/hero-shawarma.jpg',
-          dietary: ['100% Halal', 'Fresh Saj Bread'],
+          dietary: ['100% Halal', 'Spit-Roasted Meat'],
         },
         {
           id: 'sh-plate',
           name: 'Damascus Arabic Shawarma Platter',
           category: 'shawarma',
           tag: 'Chef Special',
-          description: 'Bite-sized sliced saj shawarma rolls served on a platter with spiced golden fries, wild pickled turnips and cucumbers, creamy garlic dip and tahini.',
+          description: 'Bite-sized sliced shawarma rolls served on a platter with spiced golden fries, wild pickled turnips and cucumbers, creamy garlic dip and tahini.',
           image: '/images/dish-shawarma.jpg',
           dietary: ['100% Halal', 'Complete Meal'],
         },
@@ -463,16 +463,16 @@ export function App() {
         name: 'Shawarma Misto Super (Carne e Frango)',
         category: 'shawarma',
         tag: 'Mais Pedido',
-        description: 'Fatias nobres de carne bovina e frango marinadas em 7 especiarias sírias, enroladas no pão folha artesanal assado na hora, com pasta de alho (toum), picles e batata frita.',
+        description: 'Fatias nobres de carne bovina e frango marinadas em 7 especiarias sírias, fatiadas direto do espeto no fogo a carvão, com pasta de alho (toum), picles e batata frita.',
         image: '/images/hero-shawarma.jpg',
-        dietary: ['100% Halal', 'Pão Folha Artesanal'],
+        dietary: ['100% Halal', 'Carne & Frango no Fogo'],
       },
       {
         id: 'sh-plate',
         name: 'Prato Árabe Especial de Shawarma',
         category: 'shawarma',
         tag: 'Especial da Casa',
-        description: 'Shawarma fatiado em rolinhos aperitivo no pão folha, acompanhado de porção generosa de batatas fritas temperadas, picles sírios, creme de alho suave e tahine.',
+        description: 'Shawarma fatiado em rolinhos aperitivo, acompanhado de porção generosa de batatas fritas temperadas, picles sírios, creme de alho suave e tahine.',
         image: '/images/dish-shawarma.jpg',
         dietary: ['100% Halal', 'Refeição Completa'],
       },
@@ -542,7 +542,7 @@ export function App() {
     return [
       {
         src: '/images/hero-shawarma.jpg',
-        title: lang === 'ar' ? 'شاورما سورية مميزة في خبز الصاج' : lang === 'en' ? 'Gourmet Syrian Shawarma in Saj Bread' : 'Shawarma Sírio Especial no Pão Folha',
+        title: lang === 'ar' ? 'شاورما سورية مميزة باللحم والدجاج' : lang === 'en' ? 'Gourmet Syrian Shawarma Platter' : 'Shawarma Sírio Especial Misto',
         subtitle: lang === 'ar' ? 'لحم مشوي متبل مع صلصة الثومية والمخللات' : lang === 'en' ? 'Spit-roasted meat with garlic toum and Syrian pickles' : 'Carnes marinadas no espeto com pasta de alho e picles artesanais',
         tag: 'Shawarma',
       },
@@ -553,16 +553,16 @@ export function App() {
         tag: 'Falafel',
       },
       {
-        src: '/images/gallery-saj.jpg',
-        title: lang === 'ar' ? 'خبز الصاج الطازج على النار الحية' : lang === 'en' ? 'Fresh Handcrafted Saj Flatbread' : 'Pão Folha Saj no Forno Tradicional',
-        subtitle: lang === 'ar' ? 'يُخبز على صاج مقبب ساخن مع الجمر المتوهج' : lang === 'en' ? 'Freshly baked thin dough over hot domed cast-iron oven' : 'Massa fina assada no forno saj com brasas vivas',
-        tag: 'Pão Folha',
+        src: '/images/dual-shawarma-spits.jpg',
+        title: lang === 'ar' ? 'أسياخ الشاورما العمودية (لحم ودجاج)' : lang === 'en' ? 'Dual Vertical Shawarma Spits (Beef & Chicken)' : 'Espetos Verticais de Shawarma (Carne & Frango)',
+        subtitle: lang === 'ar' ? 'مشوية على الفحم وتُقطع شرائح بالسكين مباشرة أمامك' : lang === 'en' ? 'Slow-roasted over charcoal fire and thinly sliced with knife' : 'Assados lentamente no fogo a carvão e fatiados na hora',
+        tag: 'Espetos',
       },
       {
-        src: '/images/gallery-spit.jpg',
-        title: lang === 'ar' ? 'سيخ الشاورما الدوار على نار الفحم' : lang === 'en' ? 'Rotating Shawarma Rotisserie Spit' : 'Espeto Tradicional de Shawarma',
-        subtitle: lang === 'ar' ? 'لحوم متبلة بسبع بهارات دمشقية تشوى ببطء' : lang === 'en' ? 'Slowly roasted meats seasoned with authentic Damascus spices' : 'Carnes suculentas grelhadas lentamente com especiarias sírias',
-        tag: 'Tradição',
+        src: '/images/dish-shawarma.jpg',
+        title: lang === 'ar' ? 'طبق شاورما عربي بالبطاطس والثومية' : lang === 'en' ? 'Arabic Shawarma Platter with Spiced Fries' : 'Prato de Shawarma com Batatas e Toum',
+        subtitle: lang === 'ar' ? 'رولات شاورما مقطعة مع صوص الثوم والمخللات' : lang === 'en' ? 'Sliced shawarma rolls with garlic whip and pickles' : 'Rolinhos aperitivo com creme de alho e picles',
+        tag: 'Pratos',
       },
       {
         src: '/images/dish-baklava.jpg',
@@ -587,7 +587,7 @@ export function App() {
           author: 'ماركوس سيلفا',
           role: 'مرشد محلي على Google',
           rating: 5,
-          comment: 'أفضل شاورما تناولتها في ساو باولو بلا منازع! خبز الصاج يُصنع طازجاً، واللحم طري ومتبل بإتقان، والخدمة سريعة ومضيافة للغاية.',
+          comment: 'أفضل شاورما لحم ودجاج تناولتها في ساو باولو بلا منازع! اللحم طري ومتبل بإتقان ويُقطع مباشرة من السيخ المحمص على النار.',
           source: 'Google Reviews',
         },
         {
@@ -595,7 +595,7 @@ export function App() {
           author: 'بياتريس أوليفيرا',
           role: 'عاشقة للطعام الشرقي',
           rating: 5,
-          comment: 'البقلاوة والحلويات السورية قمة في الروعة! كل شيء مصنوع بحرفية وجودة عالية. تجربة مبهجة في وسط ساو باولو بجوار Galeria do Rock.',
+          comment: 'الشاورما والبقلاوة والحلويات السورية قمة في الروعة! كل شيء مصنوع بحرفية وجودة عالية في وسط ساو باولو بجوار Galeria do Rock.',
           source: 'Google Reviews',
         },
         {
@@ -616,7 +616,7 @@ export function App() {
           author: 'Marcos Silva',
           role: 'Google Local Guide',
           rating: 5,
-          comment: 'Hands down the most authentic shawarma in São Paulo! The freshly made saj flatbread baked right on the spot elevates the sandwich to a whole new level.',
+          comment: 'Hands down the most authentic beef and chicken shawarma in São Paulo! Freshly carved from the fiery vertical spits, juicy and perfectly seasoned.',
           source: 'Google Reviews',
         },
         {
@@ -624,7 +624,7 @@ export function App() {
           author: 'Beatriz Oliveira',
           role: 'Food Enthusiast',
           rating: 5,
-          comment: 'The handmade baklavas and Syrian sweets are out of this world! Pure pistachio, crisp layers, and generous hospitality.',
+          comment: 'The shawarmas, handmade baklavas and Syrian sweets are out of this world! Generous portions and warm hospitality right in front of Galeria do Rock.',
           source: 'Google Reviews',
         },
         {
@@ -644,7 +644,7 @@ export function App() {
         author: 'Marcos Silva',
         role: 'Guia Local no Google',
         rating: 5,
-        comment: 'Com certeza o melhor shawarma de São Paulo! O pão folha feito na hora no forno saj faz toda a diferença. A carne é super suculenta e o atendimento é nota 10.',
+        comment: 'Com certeza o melhor shawarma de carne e frango de São Paulo! Fatiado direto do espeto no fogo a carvão. A carne é super suculenta e saborosa.',
         source: 'Google Reviews',
       },
       {
@@ -652,7 +652,7 @@ export function App() {
         author: 'Beatriz Oliveira',
         role: 'Crítica Gastronômica & Cliente',
         rating: 5,
-        comment: 'Os doces sírios de fabricação própria são espetaculares! A baklava de pistache tem uma massa levíssima e crocante. Um pedaço de Damasco no centro de SP.',
+        comment: 'O shawarma e os doces sírios de fabricação própria são espetaculares! A baklava de pistache tem uma massa levíssima e crocante. Um pedaço de Damasco no centro de SP.',
         source: 'Google Reviews',
       },
       {
@@ -678,7 +678,7 @@ export function App() {
             name: 'Aboud Síria',
             image: 'https://aboudsiria.com.br/images/hero-shawarma.jpg',
             description:
-              'Restaurante e lanchonete síria autêntica no Centro Histórico de São Paulo. Shawarma no pão folha saj artesanal, falafel, esfihas e doces sírios.',
+              'Restaurante e lanchonete síria autêntica especializada em shawarma de carne e frango no Centro Histórico de São Paulo. Falafel, esfihas e doces sírios.',
             address: {
               '@type': 'PostalAddress',
               streetAddress: 'Largo do Paissandú, 55',
@@ -693,7 +693,7 @@ export function App() {
               longitude: -46.6385625,
             },
             telephone: '+55-11-95842-1962',
-            servesCuisine: ['Síria', 'Árabe', 'Middle Eastern', 'Halal'],
+            servesCuisine: ['Síria', 'Árabe', 'Shawarma', 'Halal'],
             openingHoursSpecification: [
               {
                 '@type': 'OpeningHoursSpecification',
@@ -823,8 +823,8 @@ export function App() {
             >
               <div className="story-image-showcase">
                 <img
-                  src="/images/gallery-saj.jpg"
-                  alt="Preparo do pão folha artesanal no forno saj"
+                  src="/images/dual-shawarma-spits.jpg"
+                  alt="Espetos verticais de shawarma de carne e frango no fogo"
                   className="story-main-img"
                   loading="lazy"
                 />
@@ -993,7 +993,7 @@ export function App() {
           <div className="gallery-masonry-grid">
             {galleryList.map((item, index) => (
               <motion.div
-                key={item.src}
+                key={item.src + index}
                 className={`gallery-card-item item-${index}`}
                 initial={{ opacity: 0, y: 25 }}
                 whileInView={{ opacity: 1, y: 0 }}
